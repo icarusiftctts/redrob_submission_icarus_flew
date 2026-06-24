@@ -193,9 +193,9 @@ A multiplicative factor (clipped to range [0.15, 1.40]) that modifies the base s
 - **Interview Completion Rate:** `0.50 + 0.50 * completion_rate`.
 
 ### 4.3 Semantic Matching (`precompute.py`)
-- **Text Source:** Candidate profile text is built from headline, current title, summary, last 5 career history titles/descriptions, and top 20 skills.
-- **SBERT:** Uses `all-MiniLM-L6-v2` (22MB model). Computes cosine similarity with the JD text. Scores are min-max normalized to [0, 1].
-- **BM25:** Uses `rank_bm25` (BM25Okapi) on tokenized text. Scores are min-max normalized to [0, 1].
+- **Text Source:** Candidate profile text is built from headline, current title, summary (up to 300 chars), titles and companies for *all* career history entries (ensuring early Google/Meta roles remain visible), descriptions (up to 300 chars) for the top 5 roles, and top 50 skills.
+- **SBERT:** Uses `all-MiniLM-L6-v2` (22MB model). To prevent sequence length truncation of the Job Description, the full JD extracted from `job_description.docx` is chunked into paragraphs (grouped to ~150 words), and each chunk plus a `KEYWORD_BOOST` (with startup, culture, and key domain terms) is embedded separately. The final L2-normalized JD embedding is computed as the average of the chunk embeddings.
+- **BM25:** Uses `rank_bm25` (BM25Okapi) on tokenized text of the combined full JD and `KEYWORD_BOOST`.
 
 ### 4.4 Ranking Pipeline (`rank.py`)
 1. **Load Candidates:** Reads `candidates.jsonl` and `precomputed/` semantic scores.
@@ -227,7 +227,7 @@ A multiplicative factor (clipped to range [0.15, 1.40]) that modifies the base s
 - **`f_relevant_tenure` (weight 0.06):** Total months in ML/AI/NLP roles, normalized to 72 months.
 
 ### 5.3 Semantic Features
-- **`sbert` (weight 0.08) & `bm25` (weight 0.06):** Precomputed by `precompute.py`. See Section 4.3.
+- **`sbert` (weight 0.08) & `bm25` (weight 0.06):** Precomputed by `precompute.py` using chunk-average semantic embedding and full hybrid BM25. See Section 4.3.
 - **`f_headline_keyword_density` (weight 0.05):** Direct keyword match count in headline + summary for JD-specific terms (embedding, retrieval, vector, search, nlp, ranking, etc.). Normalized to 5 hits = 1.0. Complements SBERT/BM25 with exact-match signals.
 
 ### 5.4 Exp/Loc/Edu Features
@@ -243,7 +243,7 @@ A multiplicative factor (clipped to range [0.15, 1.40]) that modifies the base s
 
 ## 6. Execution Status & Critical Action Items
 
-> **Status:** Active execution. Bug fixes and feature expansion complete as of v2.0.
+> **Status:** Active execution. Hybrid semantic embedding, labeling random sampling, and display context enhancements complete as of v2.1.
 
 ### Completed Steps
 - [x] Full codebase review and schema understanding.
@@ -256,8 +256,11 @@ A multiplicative factor (clipped to range [0.15, 1.40]) that modifies the base s
 - [x] **Bug Fix:** `score_candidate` had a redundant second `has_minimum_evidence` check. Removed.
 - [x] **Feature Expansion:** Added 3 new features: `cert` (certification scoring), `recruit` (recruiter interest), `headline` (keyword density in headline/summary).
 - [x] **Feature Expansion:** Added `profile_completeness_score` to the behavioral multiplier.
-- [x] Precomputed SBERT/BM25 scores exist and are loaded correctly.
-- [x] `submission.csv` generated and validated. Top score: 0.8717, Rank-100 score: 0.4019.
+- [x] **Hybrid JD & SBERT Improvements (v2.1):** Handled Job Description truncation. Programmatically reads `job_description.docx`, chunks and embeds paragraphs separately with SBERT, averages chunk embeddings, and tokenizes combined JD + keyword boost for BM25.
+- [x] **Mitigate Career Truncation (v2.1):** Modified candidate text matching to include all role titles/companies and up to 50 skills, avoiding early career truncation.
+- [x] **Labeling Improvements (v2.1):** Expanded display to show 24 skills and 12 career entries. Implemented reservoir sampling from `candidates.jsonl` and candidate shuffling by default with `--no-shuffle` bypass.
+- [x] **Tuning Improvement (v2.1):** Modified `tune_weights.py` to scan the full `candidates.jsonl` for labeled IDs so randomly sampled candidate profiles are correctly loaded.
+- [x] `submission.csv` generated and validated. Top score: 0.8785, Rank-100 score: 0.3950.
 
 ### Pending Critical Steps
 - [ ] **Label Candidates**: Use `label.py` to manually label candidates (0-3 scale) for weight tuning. This is mandatory for improving the ranker beyond heuristic weights.

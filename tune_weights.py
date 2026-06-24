@@ -23,9 +23,12 @@ from features import score_candidate, extract_features
 
 def load_all_candidates(sample_path='sample_candidates.json',
                         jsonl_path='candidates.jsonl',
-                        limit=300) -> dict:
-    """Return {candidate_id: candidate} from sample + first `limit` of jsonl."""
+                        label_ids: set = None) -> dict:
+    """Return {candidate_id: candidate} from sample + candidates in candidates.jsonl matching label_ids."""
     cands = {}
+    if label_ids is None:
+        label_ids = set()
+
     with open(sample_path) as f:
         for c in json.load(f):
             cands[c['candidate_id']] = c
@@ -43,11 +46,14 @@ def load_all_candidates(sample_path='sample_candidates.json',
         else:
             opener = lambda: open(path_str, 'r', encoding='utf-8')
         with opener() as f:
-            for i, line in enumerate(f):
-                if i >= limit:
-                    break
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
                 c = json.loads(line)
-                cands[c['candidate_id']] = c
+                cid = c['candidate_id']
+                if cid in label_ids or cid in cands:
+                    cands[cid] = c
     return cands
 
 
@@ -78,7 +84,7 @@ def main():
     bm25_scores  = np.load(pre / 'bm25_scores.npy')
 
     # ── Load candidate pool ───────────────────────────────────────────────────
-    cand_map = load_all_candidates(args.sample, args.candidates)
+    cand_map = load_all_candidates(args.sample, args.candidates, set(labels.keys()))
     print(f'Candidate pool loaded: {len(cand_map)} candidates')
 
     # ── Build feature matrix ──────────────────────────────────────────────────
