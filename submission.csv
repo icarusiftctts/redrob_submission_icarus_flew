@@ -1,101 +1,101 @@
 candidate_id,rank,score,reasoning
-CAND_0002025,1,0.90183,Background shows traces of core production ML expertise backed by FAISS; TensorFlow. located outside preferred hiring regions with no relocation signal.
-CAND_0018499,2,0.86782,Background shows traces of core production ML expertise backed by Weaviate; Embeddings. Alignment with core requirements is developing.
-CAND_0046064,3,0.84754,Background shows traces of core production ML expertise backed by Pinecone; Elasticsearch. located outside preferred hiring regions with no relocation signal.
-CAND_0086022,4,0.84569,Background shows traces of core production ML expertise backed by Pinecone; PyTorch. Alignment with core requirements is developing.
-CAND_0081846,5,0.84559,Background shows traces of core production ML expertise backed by Vector Search; Information Retrieval. minimal public technical footprint.
-CAND_0011687,6,0.84169,Background shows traces of core production ML expertise backed by OpenSearch; Weaviate. located outside preferred hiring regions with no relocation signal.
-CAND_0088025,7,0.83241,Background shows traces of core production ML expertise backed by Elasticsearch; LLMs. Alignment with core requirements is developing.
-CAND_0052328,8,0.83116,Background shows traces of core production ML expertise and directly relevant current role backed by Vector Search; OpenSearch. Alignment with core requirements is developing.
-CAND_0077337,9,0.83052,Background shows traces of core production ML expertise backed by Information Retrieval; Qdrant. Alignment with core requirements is developing.
-CAND_0041610,10,0.81607,Background shows traces of core production ML expertise backed by OpenSearch; Elasticsearch. Alignment with core requirements is developing.
-CAND_0096142,11,0.81245,Background shows traces of core production ML expertise backed by Pinecone; Python. extended notice period may delay onboarding.
-CAND_0079387,12,0.79487,Background shows traces of core production ML expertise backed by Vector Search; OpenSearch. located outside preferred hiring regions with no relocation signal.
-CAND_0052682,13,0.79379,Background shows traces of core production ML expertise backed by Semantic Search; FAISS. located outside preferred hiring regions with no relocation signal.
-CAND_0076163,14,0.7937,Background shows traces of core production ML expertise backed by Semantic Search; Elasticsearch. located outside preferred hiring regions with no relocation signal.
-CAND_0005260,15,0.79226,Background shows traces of core production ML expertise backed by Semantic Search; NLP. minimal public technical footprint.
-CAND_0000031,16,0.79181,Background shows traces of core production ML expertise backed by Pinecone; Information Retrieval. minimal public technical footprint.
-CAND_0046525,17,0.79112,"Background shows traces of core production ML expertise backed by Qdrant; Sentence Transformers. majority of experience in consulting engagements, limiting product ownership evidence."
-CAND_0068351,18,0.7906,Background shows traces of core production ML expertise backed by Qdrant; Elasticsearch. minimal public technical footprint.
-CAND_0037566,19,0.78634,Background shows traces of core production ML expertise backed by Elasticsearch; Pinecone. Alignment with core requirements is developing.
-CAND_0065195,20,0.7859,Background shows traces of core production ML expertise and directly relevant current role backed by Elasticsearch; Qdrant. Alignment with core requirements is developing.
-CAND_0006418,21,0.78378,Background shows traces of core production ML expertise backed by Qdrant; Semantic Search. Alignment with core requirements is developing.
-CAND_0071974,22,0.78354,Background shows traces of core production ML expertise backed by Qdrant; Elasticsearch. located outside preferred hiring regions with no relocation signal.
-CAND_0042029,23,0.78203,Background shows traces of core production ML expertise backed by OpenSearch; Deep Learning. not currently signaling openness to opportunities.
-CAND_0043228,24,0.77898,Background shows traces of core production ML expertise backed by OpenSearch; Weaviate. not currently signaling openness to opportunities.
-CAND_0045250,25,0.77524,Background shows traces of core production ML expertise backed by Qdrant; Vector Search. minimal public technical footprint.
-CAND_0050454,26,0.7743,Background shows traces of core production ML expertise backed by FAISS; Fine-tuning LLMs. minimal public technical footprint.
-CAND_0064326,27,0.77395,Background shows traces of core production ML expertise and directly relevant current role backed by Weaviate; Deep Learning. Alignment with core requirements is developing.
-CAND_0075249,28,0.77287,Background shows traces of core production ML expertise backed by Pinecone; Machine Learning. Alignment with core requirements is developing.
-CAND_0010257,29,0.76881,Background shows traces of core production ML expertise and directly relevant current role backed by Qdrant; Recommendation Systems. extended notice period may delay onboarding.
-CAND_0049538,30,0.76849,Background shows traces of core production ML expertise backed by Elasticsearch; OpenSearch. not currently signaling openness to opportunities.
-CAND_0007009,31,0.76809,Background shows traces of core production ML expertise backed by OpenSearch; Weaviate. Alignment with core requirements is developing.
-CAND_0041669,32,0.76773,Background shows traces of core production ML expertise and directly relevant current role backed by Semantic Search; Information Retrieval. Alignment with core requirements is developing.
-CAND_0044222,33,0.76676,Background shows traces of core production ML expertise backed by OpenSearch; Hugging Face Transformers. located outside preferred hiring regions with no relocation signal.
-CAND_0005649,34,0.76326,Background shows traces of core production ML expertise backed by Information Retrieval; Weaviate. Alignment with core requirements is developing.
-CAND_0061257,35,0.76299,Background shows traces of core production ML expertise and directly relevant current role backed by Python; Machine Learning. Alignment with core requirements is developing.
-CAND_0069905,36,0.76161,Background shows traces of core production ML expertise and directly relevant current role backed by Weaviate; Sentence Transformers. Alignment with core requirements is developing.
-CAND_0011162,37,0.7612,Background shows traces of core production ML expertise backed by OpenSearch; FAISS. minimal public technical footprint.
-CAND_0068811,38,0.76063,Background shows traces of core production ML expertise backed by Pinecone; OpenSearch. minimal public technical footprint.
-CAND_0078492,39,0.75424,Background shows traces of core production ML expertise backed by FAISS; Qdrant. Alignment with core requirements is developing.
-CAND_0007411,40,0.75421,Background shows traces of core production ML expertise backed by OpenSearch; Information Retrieval. not currently signaling openness to opportunities.
-CAND_0095528,41,0.75364,Background shows traces of core production ML expertise backed by Elasticsearch; Semantic Search. located outside preferred hiring regions with no relocation signal.
-CAND_0075574,42,0.75297,Background shows traces of core production ML expertise backed by Weaviate; OpenSearch. Alignment with core requirements is developing.
-CAND_0049896,43,0.75272,Background shows traces of core production ML expertise backed by Information Retrieval; Fine-tuning LLMs. minimal public technical footprint.
-CAND_0060072,44,0.75069,Background shows traces of core production ML expertise backed by Pinecone; Sentence Transformers. not currently signaling openness to opportunities.
-CAND_0093912,45,0.74953,Background shows traces of core production ML expertise and directly relevant current role backed by Elasticsearch; Vector Search. located outside preferred hiring regions with no relocation signal.
-CAND_0018549,46,0.74952,Background shows traces of core production ML expertise and directly relevant current role backed by Elasticsearch; Qdrant. Alignment with core requirements is developing.
-CAND_0094759,47,0.74928,Background shows traces of core production ML expertise backed by Weaviate; Semantic Search. not currently signaling openness to opportunities.
-CAND_0091909,48,0.74782,Background shows traces of core production ML expertise backed by OpenSearch; Pinecone. Alignment with core requirements is developing.
-CAND_0066999,49,0.747,Background shows traces of core production ML expertise backed by FAISS; Information Retrieval. Alignment with core requirements is developing.
-CAND_0066376,50,0.74617,Background shows traces of core production ML expertise backed by FAISS; Information Retrieval. minimal public technical footprint.
-CAND_0081053,51,0.74218,Background shows traces of core production ML expertise backed by Weaviate; Semantic Search. Alignment with core requirements is developing.
-CAND_0027691,52,0.74088,Background shows traces of core production ML expertise backed by Weaviate; Semantic Search. Alignment with core requirements is developing.
-CAND_0050876,53,0.73899,Background shows traces of core production ML expertise and directly relevant current role backed by OpenSearch; Sentence Transformers. limited recent recruiter engagement.
-CAND_0061265,54,0.73881,Background shows traces of core production ML expertise and directly relevant current role backed by Qdrant; Hugging Face Transformers. extended notice period may delay onboarding.
-CAND_0039383,55,0.73866,Background shows traces of core production ML expertise backed by FAISS; Elasticsearch. Alignment with core requirements is developing.
-CAND_0070202,56,0.73839,Background shows traces of core production ML expertise backed by Qdrant; PyTorch. minimal public technical footprint.
-CAND_0083879,57,0.73824,Background shows traces of core production ML expertise and directly relevant current role backed by Fine-tuning LLMs; Hugging Face Transformers. minimal public technical footprint.
-CAND_0062247,58,0.73754,Background shows traces of core production ML expertise backed by Vector Search; Qdrant. Alignment with core requirements is developing.
-CAND_0036184,59,0.73478,Background shows traces of core production ML expertise backed by Semantic Search; FAISS. located outside preferred hiring regions with no relocation signal.
-CAND_0074735,60,0.73438,Background shows traces of core production ML expertise backed by Information Retrieval; Vector Search. located outside preferred hiring regions with no relocation signal.
-CAND_0083307,61,0.73418,Background shows traces of core production ML expertise backed by Weaviate; Vector Search. located outside preferred hiring regions with no relocation signal.
-CAND_0047721,62,0.7293,Background shows traces of core production ML expertise backed by Information Retrieval; Qdrant. not currently signaling openness to opportunities.
-CAND_0033861,63,0.72797,Background shows traces of core production ML expertise backed by Elasticsearch; Vector Search. located outside preferred hiring regions with no relocation signal.
-CAND_0006557,64,0.7263,Background shows traces of core production ML expertise backed by Qdrant; OpenSearch. minimal public technical footprint.
-CAND_0014440,65,0.72621,Background shows traces of core production ML expertise and directly relevant current role backed by FAISS; Qdrant. Alignment with core requirements is developing.
-CAND_0096172,66,0.72597,Background shows traces of core production ML expertise backed by Elasticsearch; Qdrant. not currently signaling openness to opportunities.
-CAND_0086151,67,0.72514,Background shows traces of core production ML expertise backed by Qdrant; Elasticsearch. extended notice period may delay onboarding.
-CAND_0077285,68,0.72354,Background shows traces of core production ML expertise backed by Information Retrieval; Sentence Transformers. Alignment with core requirements is developing.
-CAND_0099401,69,0.72314,Background shows traces of core production ML expertise backed by Qdrant; Semantic Search. minimal public technical footprint.
-CAND_0087630,70,0.72139,Background shows traces of core production ML expertise backed by OpenSearch; Sentence Transformers. minimal public technical footprint.
-CAND_0029367,71,0.72017,Background shows traces of core production ML expertise backed by Pinecone; FAISS. Alignment with core requirements is developing.
-CAND_0020350,72,0.71959,Background shows traces of core production ML expertise backed by LLMs; NLP. minimal public technical footprint.
-CAND_0089552,73,0.71912,Background shows traces of core production ML expertise backed by Qdrant; Vector Search. not currently signaling openness to opportunities.
-CAND_0017960,74,0.71854,Background shows traces of core production ML expertise and directly relevant current role backed by Information Retrieval; Qdrant. Alignment with core requirements is developing.
-CAND_0020877,75,0.7184,Background shows traces of core production ML expertise backed by Information Retrieval; Elasticsearch. not currently signaling openness to opportunities.
-CAND_0098846,76,0.71686,Background shows traces of core production ML expertise and directly relevant current role backed by Qdrant; Recommendation Systems. Alignment with core requirements is developing.
-CAND_0015578,77,0.71405,Background shows traces of core production ML expertise backed by Pinecone; FAISS. minimal public technical footprint.
-CAND_0030031,78,0.71173,Background shows traces of core production ML expertise and directly relevant current role backed by Vector Search; NLP. located outside preferred hiring regions with no relocation signal.
-CAND_0044855,79,0.71015,Background shows traces of core production ML expertise backed by Qdrant; Pinecone. not currently signaling openness to opportunities.
-CAND_0081852,80,0.7079,Background shows traces of directly relevant current role and strong semantic alignment with the role backed by Senior Data Scientist. Alignment with core requirements is developing.
-CAND_0051630,81,0.70554,Background shows traces of core production ML expertise backed by Information Retrieval; Elasticsearch. not currently signaling openness to opportunities.
-CAND_0070398,82,0.69715,"Background shows traces of core production ML expertise backed by FAISS; Information Retrieval. majority of experience in consulting engagements, limiting product ownership evidence."
-CAND_0076251,83,0.69536,Background shows traces of core production ML expertise and directly relevant current role backed by Hugging Face Transformers; Learning to Rank. minimal public technical footprint.
-CAND_0040117,84,0.69421,Background shows traces of core production ML expertise and directly relevant current role backed by FAISS; Embeddings. located outside preferred hiring regions with no relocation signal.
-CAND_0079064,85,0.69308,Background shows traces of core production ML expertise backed by Semantic Search; OpenSearch. minimal public technical footprint.
-CAND_0027801,86,0.68833,Background shows traces of core production ML expertise and directly relevant current role backed by OpenSearch; FAISS. extended notice period may delay onboarding.
-CAND_0030953,87,0.68649,Background shows traces of core production ML expertise and directly relevant current role backed by Qdrant; Weaviate. frequent short stints suggest title-chasing pattern.
-CAND_0060054,88,0.68571,Background shows traces of core production ML expertise and directly relevant current role backed by Semantic Search; Elasticsearch. minimal public technical footprint.
-CAND_0015528,89,0.68294,Background shows traces of core production ML expertise backed by OpenSearch; FAISS. located outside preferred hiring regions with no relocation signal.
-CAND_0094056,90,0.67885,Background shows traces of core production ML expertise backed by Pinecone; Embeddings. not currently signaling openness to opportunities.
-CAND_0092255,91,0.67882,Background shows traces of core production ML expertise and directly relevant current role backed by Vector Search; Weaviate. Alignment with core requirements is developing.
-CAND_0016163,92,0.67775,Background shows traces of core production ML expertise and directly relevant current role backed by Weaviate; TensorFlow. extended notice period may delay onboarding.
-CAND_0009024,93,0.67761,Background shows traces of core production ML expertise and directly relevant current role backed by OpenSearch; Recommendation Systems. minimal public technical footprint.
-CAND_0007412,94,0.67628,Background shows traces of core production ML expertise and directly relevant current role backed by Pinecone; PyTorch. frequent short stints suggest title-chasing pattern.
-CAND_0009691,95,0.67496,Background shows traces of core production ML expertise backed by Qdrant; Fine-tuning LLMs. extended notice period may delay onboarding.
-CAND_0057563,96,0.6745,Background shows traces of core production ML expertise and directly relevant current role backed by Elasticsearch; OpenSearch. minimal public technical footprint.
-CAND_0058575,97,0.67145,Background shows traces of core production ML expertise and directly relevant current role backed by Pinecone; Hugging Face Transformers. minimal public technical footprint.
-CAND_0028793,98,0.66662,Background shows traces of core production ML expertise and directly relevant current role backed by Information Retrieval; Embeddings. extended notice period may delay onboarding.
-CAND_0051292,99,0.66293,Background shows traces of core production ML expertise and directly relevant current role backed by Vector Search; Elasticsearch. located outside preferred hiring regions with no relocation signal.
-CAND_0040178,100,0.65999,Background shows traces of core production ML expertise and directly relevant current role backed by OpenSearch; Vector Search. minimal public technical footprint.
+CAND_0002025,1,0.90183,Partial signals suggest core production ML expertise backed by FAISS; TensorFlow. located outside preferred hiring regions with no relocation signal.
+CAND_0018499,2,0.86782,Partial signals suggest core production ML expertise backed by Weaviate; Embeddings. Alignment with core requirements is developing.
+CAND_0046064,3,0.84754,Partial signals suggest core production ML expertise backed by Pinecone; Elasticsearch. located outside preferred hiring regions with no relocation signal.
+CAND_0086022,4,0.84569,Partial signals suggest core production ML expertise backed by Pinecone; PyTorch. Alignment with core requirements is developing.
+CAND_0081846,5,0.84559,Partial signals suggest core production ML expertise backed by Vector Search; Information Retrieval. minimal public technical footprint.
+CAND_0011687,6,0.84169,Partial signals suggest core production ML expertise backed by OpenSearch; Weaviate. located outside preferred hiring regions with no relocation signal.
+CAND_0088025,7,0.83241,Partial signals suggest core production ML expertise backed by Elasticsearch; LLMs. Alignment with core requirements is developing.
+CAND_0052328,8,0.83116,Partial signals suggest core production ML expertise and directly relevant current role backed by Vector Search; OpenSearch. Alignment with core requirements is developing.
+CAND_0077337,9,0.83052,Partial signals suggest core production ML expertise backed by Information Retrieval; Qdrant. Alignment with core requirements is developing.
+CAND_0041610,10,0.81607,Partial signals suggest core production ML expertise backed by OpenSearch; Elasticsearch. Alignment with core requirements is developing.
+CAND_0096142,11,0.81245,Partial signals suggest core production ML expertise backed by Pinecone; Python. extended notice period may delay onboarding.
+CAND_0079387,12,0.79487,Partial signals suggest core production ML expertise backed by Vector Search; OpenSearch. located outside preferred hiring regions with no relocation signal.
+CAND_0052682,13,0.79379,Partial signals suggest core production ML expertise backed by Semantic Search; FAISS. located outside preferred hiring regions with no relocation signal.
+CAND_0076163,14,0.7937,Partial signals suggest core production ML expertise backed by Semantic Search; Elasticsearch. located outside preferred hiring regions with no relocation signal.
+CAND_0005260,15,0.79226,Partial signals suggest core production ML expertise backed by Semantic Search; NLP. minimal public technical footprint.
+CAND_0000031,16,0.79181,Partial signals suggest core production ML expertise backed by Pinecone; Information Retrieval. minimal public technical footprint.
+CAND_0046525,17,0.79112,"Partial signals suggest core production ML expertise backed by Qdrant; Sentence Transformers. majority of experience in consulting engagements, limiting product ownership evidence."
+CAND_0068351,18,0.7906,Partial signals suggest core production ML expertise backed by Qdrant; Elasticsearch. minimal public technical footprint.
+CAND_0037566,19,0.78634,Partial signals suggest core production ML expertise backed by Elasticsearch; Pinecone. Alignment with core requirements is developing.
+CAND_0065195,20,0.7859,Partial signals suggest core production ML expertise and directly relevant current role backed by Elasticsearch; Qdrant. Alignment with core requirements is developing.
+CAND_0006418,21,0.78378,Partial signals suggest core production ML expertise backed by Qdrant; Semantic Search. Alignment with core requirements is developing.
+CAND_0071974,22,0.78354,Partial signals suggest core production ML expertise backed by Qdrant; Elasticsearch. located outside preferred hiring regions with no relocation signal.
+CAND_0042029,23,0.78203,Partial signals suggest core production ML expertise backed by OpenSearch; Deep Learning. not currently signaling openness to opportunities.
+CAND_0043228,24,0.77898,Partial signals suggest core production ML expertise backed by OpenSearch; Weaviate. not currently signaling openness to opportunities.
+CAND_0045250,25,0.77524,Partial signals suggest core production ML expertise backed by Qdrant; Vector Search. minimal public technical footprint.
+CAND_0050454,26,0.7743,Partial signals suggest core production ML expertise backed by FAISS; Fine-tuning LLMs. minimal public technical footprint.
+CAND_0064326,27,0.77395,Partial signals suggest core production ML expertise and directly relevant current role backed by Weaviate; Deep Learning. Alignment with core requirements is developing.
+CAND_0075249,28,0.77287,Partial signals suggest core production ML expertise backed by Pinecone; Machine Learning. Alignment with core requirements is developing.
+CAND_0010257,29,0.76881,Partial signals suggest core production ML expertise and directly relevant current role backed by Qdrant; Recommendation Systems. extended notice period may delay onboarding.
+CAND_0049538,30,0.76849,Partial signals suggest core production ML expertise backed by Elasticsearch; OpenSearch. not currently signaling openness to opportunities.
+CAND_0007009,31,0.76809,Partial signals suggest core production ML expertise backed by OpenSearch; Weaviate. Alignment with core requirements is developing.
+CAND_0041669,32,0.76773,Partial signals suggest core production ML expertise and directly relevant current role backed by Semantic Search; Information Retrieval. Alignment with core requirements is developing.
+CAND_0044222,33,0.76676,Partial signals suggest core production ML expertise backed by OpenSearch; Hugging Face Transformers. located outside preferred hiring regions with no relocation signal.
+CAND_0005649,34,0.76326,Partial signals suggest core production ML expertise backed by Information Retrieval; Weaviate. Alignment with core requirements is developing.
+CAND_0061257,35,0.76299,Partial signals suggest core production ML expertise and directly relevant current role backed by Python; Machine Learning. Alignment with core requirements is developing.
+CAND_0069905,36,0.76161,Partial signals suggest core production ML expertise and directly relevant current role backed by Weaviate; Sentence Transformers. Alignment with core requirements is developing.
+CAND_0011162,37,0.7612,Partial signals suggest core production ML expertise backed by OpenSearch; FAISS. minimal public technical footprint.
+CAND_0068811,38,0.76063,Partial signals suggest core production ML expertise backed by Pinecone; OpenSearch. minimal public technical footprint.
+CAND_0078492,39,0.75424,Partial signals suggest core production ML expertise backed by FAISS; Qdrant. Alignment with core requirements is developing.
+CAND_0007411,40,0.75421,Partial signals suggest core production ML expertise backed by OpenSearch; Information Retrieval. not currently signaling openness to opportunities.
+CAND_0095528,41,0.75364,Partial signals suggest core production ML expertise backed by Elasticsearch; Semantic Search. located outside preferred hiring regions with no relocation signal.
+CAND_0075574,42,0.75297,Partial signals suggest core production ML expertise backed by Weaviate; OpenSearch. Alignment with core requirements is developing.
+CAND_0049896,43,0.75272,Partial signals suggest core production ML expertise backed by Information Retrieval; Fine-tuning LLMs. minimal public technical footprint.
+CAND_0060072,44,0.75069,Partial signals suggest core production ML expertise backed by Pinecone; Sentence Transformers. not currently signaling openness to opportunities.
+CAND_0093912,45,0.74953,Partial signals suggest core production ML expertise and directly relevant current role backed by Elasticsearch; Vector Search. located outside preferred hiring regions with no relocation signal.
+CAND_0018549,46,0.74952,Partial signals suggest core production ML expertise and directly relevant current role backed by Elasticsearch; Qdrant. Alignment with core requirements is developing.
+CAND_0094759,47,0.74928,Partial signals suggest core production ML expertise backed by Weaviate; Semantic Search. not currently signaling openness to opportunities.
+CAND_0091909,48,0.74782,Partial signals suggest core production ML expertise backed by OpenSearch; Pinecone. Alignment with core requirements is developing.
+CAND_0066999,49,0.747,Partial signals suggest core production ML expertise backed by FAISS; Information Retrieval. Alignment with core requirements is developing.
+CAND_0066376,50,0.74617,Partial signals suggest core production ML expertise backed by FAISS; Information Retrieval. minimal public technical footprint.
+CAND_0081053,51,0.74218,Partial signals suggest core production ML expertise backed by Weaviate; Semantic Search. Alignment with core requirements is developing.
+CAND_0027691,52,0.74088,Partial signals suggest core production ML expertise backed by Weaviate; Semantic Search. Alignment with core requirements is developing.
+CAND_0050876,53,0.73899,Partial signals suggest core production ML expertise and directly relevant current role backed by OpenSearch; Sentence Transformers. limited recent recruiter engagement.
+CAND_0061265,54,0.73881,Partial signals suggest core production ML expertise and directly relevant current role backed by Qdrant; Hugging Face Transformers. extended notice period may delay onboarding.
+CAND_0039383,55,0.73866,Partial signals suggest core production ML expertise backed by FAISS; Elasticsearch. Alignment with core requirements is developing.
+CAND_0070202,56,0.73839,Partial signals suggest core production ML expertise backed by Qdrant; PyTorch. minimal public technical footprint.
+CAND_0083879,57,0.73824,Partial signals suggest core production ML expertise and directly relevant current role backed by Fine-tuning LLMs; Hugging Face Transformers. minimal public technical footprint.
+CAND_0062247,58,0.73754,Partial signals suggest core production ML expertise backed by Vector Search; Qdrant. Alignment with core requirements is developing.
+CAND_0036184,59,0.73478,Partial signals suggest core production ML expertise backed by Semantic Search; FAISS. located outside preferred hiring regions with no relocation signal.
+CAND_0074735,60,0.73438,Partial signals suggest core production ML expertise backed by Information Retrieval; Vector Search. located outside preferred hiring regions with no relocation signal.
+CAND_0083307,61,0.73418,Partial signals suggest core production ML expertise backed by Weaviate; Vector Search. located outside preferred hiring regions with no relocation signal.
+CAND_0047721,62,0.7293,Partial signals suggest core production ML expertise backed by Information Retrieval; Qdrant. not currently signaling openness to opportunities.
+CAND_0033861,63,0.72797,Partial signals suggest core production ML expertise backed by Elasticsearch; Vector Search. located outside preferred hiring regions with no relocation signal.
+CAND_0006557,64,0.7263,Partial signals suggest core production ML expertise backed by Qdrant; OpenSearch. minimal public technical footprint.
+CAND_0014440,65,0.72621,Partial signals suggest core production ML expertise and directly relevant current role backed by FAISS; Qdrant. Alignment with core requirements is developing.
+CAND_0096172,66,0.72597,Partial signals suggest core production ML expertise backed by Elasticsearch; Qdrant. not currently signaling openness to opportunities.
+CAND_0086151,67,0.72514,Partial signals suggest core production ML expertise backed by Qdrant; Elasticsearch. extended notice period may delay onboarding.
+CAND_0077285,68,0.72354,Partial signals suggest core production ML expertise backed by Information Retrieval; Sentence Transformers. Alignment with core requirements is developing.
+CAND_0099401,69,0.72314,Partial signals suggest core production ML expertise backed by Qdrant; Semantic Search. minimal public technical footprint.
+CAND_0087630,70,0.72139,Partial signals suggest core production ML expertise backed by OpenSearch; Sentence Transformers. minimal public technical footprint.
+CAND_0029367,71,0.72017,Partial signals suggest core production ML expertise backed by Pinecone; FAISS. Alignment with core requirements is developing.
+CAND_0020350,72,0.71959,Partial signals suggest core production ML expertise backed by LLMs; NLP. minimal public technical footprint.
+CAND_0089552,73,0.71912,Partial signals suggest core production ML expertise backed by Qdrant; Vector Search. not currently signaling openness to opportunities.
+CAND_0017960,74,0.71854,Partial signals suggest core production ML expertise and directly relevant current role backed by Information Retrieval; Qdrant. Alignment with core requirements is developing.
+CAND_0020877,75,0.7184,Partial signals suggest core production ML expertise backed by Information Retrieval; Elasticsearch. not currently signaling openness to opportunities.
+CAND_0098846,76,0.71686,Partial signals suggest core production ML expertise and directly relevant current role backed by Qdrant; Recommendation Systems. Alignment with core requirements is developing.
+CAND_0015578,77,0.71405,Partial signals suggest core production ML expertise backed by Pinecone; FAISS. minimal public technical footprint.
+CAND_0030031,78,0.71173,Partial signals suggest core production ML expertise and directly relevant current role backed by Vector Search; NLP. located outside preferred hiring regions with no relocation signal.
+CAND_0044855,79,0.71015,Partial signals suggest core production ML expertise backed by Qdrant; Pinecone. not currently signaling openness to opportunities.
+CAND_0081852,80,0.7079,Partial signals suggest directly relevant current role and strong semantic alignment with the role backed by Senior Data Scientist. Alignment with core requirements is developing.
+CAND_0051630,81,0.70554,Partial signals suggest core production ML expertise backed by Information Retrieval; Elasticsearch. not currently signaling openness to opportunities.
+CAND_0070398,82,0.69715,"Partial signals suggest core production ML expertise backed by FAISS; Information Retrieval. majority of experience in consulting engagements, limiting product ownership evidence."
+CAND_0076251,83,0.69536,Partial signals suggest core production ML expertise and directly relevant current role backed by Hugging Face Transformers; Learning to Rank. minimal public technical footprint.
+CAND_0040117,84,0.69421,Partial signals suggest core production ML expertise and directly relevant current role backed by FAISS; Embeddings. located outside preferred hiring regions with no relocation signal.
+CAND_0079064,85,0.69308,Partial signals suggest core production ML expertise backed by Semantic Search; OpenSearch. minimal public technical footprint.
+CAND_0027801,86,0.68833,Partial signals suggest core production ML expertise and directly relevant current role backed by OpenSearch; FAISS. extended notice period may delay onboarding.
+CAND_0030953,87,0.68649,Partial signals suggest core production ML expertise and directly relevant current role backed by Qdrant; Weaviate. frequent short stints suggest title-chasing pattern.
+CAND_0060054,88,0.68571,Partial signals suggest core production ML expertise and directly relevant current role backed by Semantic Search; Elasticsearch. minimal public technical footprint.
+CAND_0015528,89,0.68294,Partial signals suggest core production ML expertise backed by OpenSearch; FAISS. located outside preferred hiring regions with no relocation signal.
+CAND_0094056,90,0.67885,Partial signals suggest core production ML expertise backed by Pinecone; Embeddings. not currently signaling openness to opportunities.
+CAND_0092255,91,0.67882,Partial signals suggest core production ML expertise and directly relevant current role backed by Vector Search; Weaviate. Alignment with core requirements is developing.
+CAND_0016163,92,0.67775,Partial signals suggest core production ML expertise and directly relevant current role backed by Weaviate; TensorFlow. extended notice period may delay onboarding.
+CAND_0009024,93,0.67761,Partial signals suggest core production ML expertise and directly relevant current role backed by OpenSearch; Recommendation Systems. minimal public technical footprint.
+CAND_0007412,94,0.67628,Partial signals suggest core production ML expertise and directly relevant current role backed by Pinecone; PyTorch. frequent short stints suggest title-chasing pattern.
+CAND_0009691,95,0.67496,Partial signals suggest core production ML expertise backed by Qdrant; Fine-tuning LLMs. extended notice period may delay onboarding.
+CAND_0057563,96,0.6745,Partial signals suggest core production ML expertise and directly relevant current role backed by Elasticsearch; OpenSearch. minimal public technical footprint.
+CAND_0058575,97,0.67145,Partial signals suggest core production ML expertise and directly relevant current role backed by Pinecone; Hugging Face Transformers. minimal public technical footprint.
+CAND_0028793,98,0.66662,Partial signals suggest core production ML expertise and directly relevant current role backed by Information Retrieval; Embeddings. extended notice period may delay onboarding.
+CAND_0051292,99,0.66293,Partial signals suggest core production ML expertise and directly relevant current role backed by Vector Search; Elasticsearch. located outside preferred hiring regions with no relocation signal.
+CAND_0040178,100,0.65999,Partial signals suggest core production ML expertise and directly relevant current role backed by OpenSearch; Vector Search. minimal public technical footprint.

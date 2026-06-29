@@ -1,8 +1,5 @@
-# Redrob Hackathon — Submission Metadata Template
-#
-# Copy this file to your repo root as `submission_metadata.yaml` and fill it in.
-# The fields here should match what you submit via the portal at upload time.
-# Stage 3 review uses this file to verify your portal metadata.
+# Redrob Hackathon — Submission Metadata
+# The fields here match what you submit via the portal at upload time.
 
 # ============================================================================
 # Team identity
@@ -59,7 +56,7 @@ compute:
 ai_tools_used:
   - "Gemini"
   - "Cursor"
-  # Other options: "Claude", "GitHub Copilot", "Codeium", "Other", "None"
+  # Other options: "Claude", "ChatGPT", "GitHub Copilot", "Codeium", "Other", "None"
 
 ai_usage_summary: |
   Used Gemini for code refinement, bug fixing (e.g. yoe_multiplier index fix),
