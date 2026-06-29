@@ -128,3 +128,29 @@ python app.py
 ```
 Open the local URL in your browser, paste a JSON array of candidates (e.g. from `sample_candidates.json`), and click submit to generate a ranked CSV.
 *(Note: Semantic scores default to 0 in the sandbox since it runs in real-time without the precomputed matrices.)*
+
+---
+
+## 📈 Weight Tuning & Optimization (`label_tool.py` & `tune_weights.py`)
+
+To shift the ranking pipeline from heuristic weights to learned weights optimized for NDCG, you can use the built-in labeling and optimization tools:
+
+### 1. Label a Sample of Candidates
+Run the interactive CLI labeling tool to grade a subset of candidates on a `0–4` relevance scale:
+```bash
+python label_tool.py
+```
+- It loads candidates (automatically skipping honeypots) and displays a clean profile summary.
+- Enter a score between `0` (Reject) and `4` (Outstanding Hire) to grade candidates.
+- Progress is saved incrementally to `labeled_candidates.json`. You can stop and resume at any time.
+
+### 2. Run the Weight Optimizer
+Once you have labeled a few candidates (recommend at least 10–20), run the optimizer:
+```bash
+python tune_weights.py
+```
+- The optimizer reads your grades and compiles the feature vectors.
+- It uses **RankNet-style pairwise logistic loss** regularized toward your initial heuristic weights to prevent overfitting.
+- Constrained optimization (`SLSQP`) ensures that all weights are positive and sum to exactly `1.0`.
+- The tool reports the before-and-after NDCG@10, NDCG@All, and Pairwise Accuracy, and displays the weight changes.
+- It prompts you to write the new weights directly back to `features.py`.
