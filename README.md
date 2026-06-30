@@ -11,7 +11,7 @@ The goal of this project is to rank ~100,000 candidate profiles against a specif
 - **CPU-Optimized Runtime**: Processes the entire 100K dataset and writes the final ranked CSV in **~10–12 seconds** on a standard 8-core CPU (no GPU/network required during ranking).
 - **Honeypot Protection**: Detects and filters out **100% of ground-truth synthetic honeypots** (93/93) using a robust 4-flag validation engine before scoring.
 - **Evidence-Grounded Reasoning**: Automatically generates rich, 1–2 sentence deterministic justifications for each candidate's fit using an advanced template system with 18 evidence extractors.
-- **Top Candidates Score Range**: Generated scores range from **0.9018** (Rank 1) down to **0.6600** (Rank 100).
+- **Top Candidates Score Range**: Generated scores range from **0.8965** (Rank 1) down to **0.6574** (Rank 100).
 
 ---
 
