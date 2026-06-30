@@ -726,7 +726,9 @@ def score_candidate(candidate: dict,
     sal_mult = salary_multiplier(candidate.get('redrob_signals', {}))
 
     final = (base + 0.15 * (mult - 1.0)) * loc_mult * yoe_mult * sal_mult
-    return round(max(0.0, final), 5), feats
+    final_score = round(max(0.0, final), 5)
+    feats['overall_score'] = final_score
+    return final_score, feats
 
 # ─── Export aliases for reasoning.py ──────────────────────────────────────────
 # reasoning.py imports these underscore-prefixed names to stay in sync.
